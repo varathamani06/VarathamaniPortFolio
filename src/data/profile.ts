@@ -7,7 +7,7 @@ export const profile = {
   phoneHref: "tel:+919150133692",
   linkedin: "https://www.linkedin.com/in/v-varatha-mani-4975372a7/",
   github: "https://github.com/varathamani06",
-  site: "",
+  site: "https://my-port-folio2-silk.vercel.app/",
   resume: "/resume.pdf",
   tagline:
     "Building scalable web applications and AI-powered solutions with modern frontend, backend, database, and AI technologies.",
