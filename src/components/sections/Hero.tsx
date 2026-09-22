@@ -34,7 +34,7 @@ export function Hero() {
           <motion.h1 {...fade(0.08)} className="mt-[18px] text-[clamp(2.4rem,5.6vw,4.4rem)] font-bold leading-[1.05]">
             Hi, I&apos;m {profile.name}.
             <span className="mt-2 block bg-gradient-to-r from-accent to-accent2 bg-clip-text text-[0.68em] font-semibold leading-[1.12] text-transparent">
-              I build modern web applications and AI-powered systems.
+               3+ years of experience building modern web applications and AI-powered systems.
             </span>
           </motion.h1>
 

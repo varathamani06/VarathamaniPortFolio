@@ -2,9 +2,21 @@ import { Code2, Layers, Sparkles } from "lucide-react";
 import { Reveal } from "@/components/ui/Reveal";
 
 const cards = [
-  { icon: Code2, title: "Full-Stack Development", text: "Modern frontend and backend applications." },
-  { icon: Sparkles, title: "AI Engineering", text: "LLMs, RAG, OpenAI APIs and AI-powered workflows." },
-  { icon: Layers, title: "Scalable Systems", text: "APIs, databases, real-time systems and production-oriented architecture." },
+  {
+    icon: Code2,
+    title: "Full-Stack Development",
+    text: "Modern frontend and backend applications.",
+  },
+  {
+    icon: Sparkles,
+    title: "AI Engineering",
+    text: "LLMs, RAG, OpenAI APIs and AI-powered workflows.",
+  },
+  {
+    icon: Layers,
+    title: "Scalable Systems",
+    text: "APIs, databases, real-time systems and production-oriented architecture.",
+  },
 ];
 
 export function About() {
@@ -13,19 +25,28 @@ export function About() {
       <div className="mx-auto max-w-[1160px] px-6">
         <div className="grid items-start gap-6 md:grid-cols-2 md:gap-14">
           <Reveal>
-            <span className="text-xs font-semibold uppercase tracking-[0.14em] text-accent">About Me</span>
+            <span className="text-xs font-semibold uppercase tracking-[0.14em] text-accent">
+              About Me
+            </span>
             <h2 className="mt-3.5 text-[clamp(1.7rem,3.6vw,2.6rem)] font-semibold leading-[1.15]">
-              Full-Stack Developer building modern applications with AI at the core.
+               Full-Stack Developer with 3+ years of experience building modern applications with AI at the core.
             </h2>
           </Reveal>
-          <Reveal delay={0.1} className="grid gap-4 pt-1.5 text-[1.05rem] text-muted">
+          <Reveal
+            delay={0.1}
+            className="grid gap-4 pt-1.5 text-[1.05rem] text-muted"
+          >
             <p>
-              I work across the full stack: responsive frontends in React.js and Next.js, backend services in Node.js,
-              Express.js, Python and FastAPI, and data layers in PostgreSQL, MySQL and MongoDB.
+              With 3+ years of experience as a Full-Stack Developer, I work
+              across the full stack: building responsive frontends with React.js
+              and Next.js, backend services with Node.js, Express.js, Python and
+              FastAPI, and data layers with PostgreSQL, MySQL and MongoDB.
             </p>
             <p>
-              I also build AI-powered applications, integrating large language models, prompt engineering, OpenAI APIs
-              and retrieval-augmented generation (RAG) into real products with modern web technologies.
+              I also build AI-powered applications, integrating large language
+              models, prompt engineering, OpenAI APIs and retrieval-augmented
+              generation (RAG) into real-world products using modern web
+              technologies.
             </p>
           </Reveal>
         </div>
